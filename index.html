@@ -96,8 +96,9 @@
   }
   header.scrolled{background:rgba(5,15,25,.92);box-shadow:0 8px 24px -12px rgba(0,0,0,.5);}
   .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;}
-  .logo{font-family:var(--font-display);font-weight:700;font-size:20px;color:var(--white);}
+  .logo{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;font-size:20px;color:var(--white);}
   .logo span{color:var(--cyan);font-weight:600;}
+  .logo-mark{height:26px;width:auto;display:block;}
 
   /* ---------- HERO ---------- */
   .hero{
@@ -395,6 +396,7 @@
   .footer-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:28px;margin-bottom:36px;}
   .footer-logo{font-family:var(--font-display);font-weight:700;font-size:19px;color:var(--white);margin-bottom:6px;}
   .footer-logo span{color:var(--cyan);}
+  .footer-logo-mark{height:78px;width:auto;display:block;margin-bottom:14px;}
   .footer-tagline{font-size:13.5px;color:var(--slate-400);}
   .footer-contact{font-size:14px;display:flex;flex-direction:column;gap:6px;align-items:flex-start;}
   .footer-contact a:hover{color:var(--green);}
@@ -449,7 +451,7 @@
 
 <header id="site-header">
   <nav class="nav wrap">
-    <div class="logo">ZMOVE<span>.DIGITAL</span></div>
+    <div class="logo"><img class="logo-mark" src="assets/zmove-icon-mark.png" alt="">ZMOVE<span>.DIGITAL</span></div>
     <a class="btn btn-ghost" href="https://wa.me/5551989923636?text=Ol%C3%A1!%20Vi%20a%20p%C3%A1gina%20da%20ZMOVE.DIGITAL%20e%20quero%20saber%20mais%20sobre%20como%20ter%20presen%C3%A7a%20profissional%20na%20internet." target="_blank" rel="noopener">
       WhatsApp
     </a>
@@ -708,12 +710,13 @@
   <div class="wrap">
     <div class="footer-top">
       <div>
-        <div class="footer-logo">ZMOVE<span>.DIGITAL</span></div>
+        <img class="footer-logo-mark" src="assets/zmove-logo-full.png" alt="ZMOVE.DIGITAL">
         <div class="footer-tagline">Presença digital para pequenos negócios</div>
       </div>
       <div class="footer-contact">
         <a href="https://wa.me/5551989923636" target="_blank" rel="noopener">(51) 9 8992-3636</a>
         <a href="mailto:zmove.digital@gmail.com">zmove.digital@gmail.com</a>
+        <span>Avenida Praia de Belas, 1212 - Sala 424 - Office 424 Coworking</span>
       </div>
     </div>
     <div class="footer-bottom">© 2026 ZMOVE.DIGITAL. Todos os direitos reservados.</div>
