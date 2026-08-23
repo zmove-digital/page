@@ -142,7 +142,7 @@
     box-shadow:0 30px 70px -20px rgba(0,0,0,.6), 0 0 0 1px rgba(34,211,238,.05);
     aspect-ratio:4/5;
   }
-  .hero-photo img{width:100%;height:100%;object-fit:cover;display:block;}
+  .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 12%;display:block;}
   .hero-photo::after{
     content:'';position:absolute;inset:0;
     background:linear-gradient(180deg, transparent 55%, rgba(5,15,25,.65) 100%);
@@ -424,7 +424,7 @@
   @media (max-width:860px){
     .hero-inner{grid-template-columns:1fr;gap:36px;}
     .hero-photo-wrap{order:-1;}
-    .hero-photo{aspect-ratio:16/11;max-width:420px;margin:0 auto;}
+    .hero-photo{aspect-ratio:3/4;max-width:420px;margin:0 auto;}
     .problem-grid,.services-grid,.t-grid{grid-template-columns:1fr;}
     .steps{grid-template-columns:1fr 1fr;row-gap:32px;}
     .steps::before{display:none;}
