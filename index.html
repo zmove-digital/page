@@ -58,7 +58,7 @@
 
     main{position:relative;z-index:1;}
 
-    .screen{display:none;min-height:100vh;flex-direction:column;align-items:center;justify-content:center;padding:88px 24px 64px;}
+    .screen{display:none;min-height:100vh;flex-direction:column;align-items:center;justify-content:center;padding:72px 24px 56px;}
     .screen.active{display:flex;animation:rise .55s ease both;}
     @keyframes rise{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:none;}}
 
@@ -90,12 +90,12 @@
     .float-wa svg{width:24px;height:24px;fill:currentColor;}
 
     /* welcome */
-    .screen-logo{
-      display:inline-block;margin-bottom:34px;
+    .logo-link{
+      display:inline-block;margin-bottom:26px;
       animation:pop .7s cubic-bezier(.34,1.56,.64,1) both .15s;
     }
     @keyframes pop{from{opacity:0;transform:scale(.78);}to{opacity:1;transform:scale(1);}}
-    .screen-logo img{height:56px;width:auto;}
+    .logo-link img{height:88px;width:auto;}
     .logo-link{transition:opacity .2s ease;}
     .logo-link:hover{opacity:.8;}
 
@@ -130,7 +130,7 @@
     .cta-hint{margin-top:14px;font-size:12.5px;color:var(--muted);font-weight:300;animation:rise .6s ease both .55s;}
 
     /* clients marquee */
-    .clients{width:100%;max-width:980px;margin-top:64px;animation:rise .6s ease both .65s;}
+    .clients{width:100%;max-width:980px;margin-top:48px;animation:rise .6s ease both .65s;}
     .clients-title{font-size:13px;color:var(--muted);text-align:center;font-weight:300;margin-bottom:8px;}
     .clients-title b{color:var(--white);font-weight:600;}
     .marquee{
@@ -154,7 +154,7 @@
     .c-role{font-size:12px;color:var(--cyan);font-weight:300;}
 
     .slogan{
-      margin-top:40px;font-size:14px;font-weight:300;letter-spacing:.12em;
+      margin-top:32px;font-size:14px;font-weight:300;letter-spacing:.12em;
       text-transform:uppercase;color:var(--muted);text-align:center;
       animation:rise .6s ease both .8s;
     }
@@ -225,7 +225,7 @@
     @media (max-width:560px){
       .screen{padding:76px 20px 80px;}
       .float-wa{top:auto;bottom:22px;right:22px;width:48px;height:48px;}
-      .screen-logo img{height:46px;}
+      .logo-link img{height:64px;}
       .c-card{width:236px;padding:13px 16px;}
       .btn-cta{padding:15px 34px;font-size:15.5px;}
       .footer-line{display:none;}
